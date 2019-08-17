@@ -28,6 +28,7 @@ body {
   flex-direction: column;
   display: flex;
   height: 100vh;
+  background:#cc33ff;
 }
 
 li,
@@ -43,10 +44,7 @@ h2 {
   font-size: var(--font-size-large);
   margin: 0;
   color:violet;
-  font-weight: bolder;
-  box-shadow: 0 9px #999;
-  border:thick;
-}
+  }
 
 h1 {
   font-size: 30px;
@@ -67,12 +65,10 @@ button {
   cursor: pointer;
 }
 p{
-  color: purple;   
+  color:#660066;   
   font-style: bold;
   font-size:30px;
-  
-
-}
+ }
 span{
   color: rgb(206, 21, 206);
   font-style: bold;
@@ -107,7 +103,7 @@ span{
 
 .header {
   color: #3a3f58;
-   box-shadow: 0 5px #666
+ 
 }
 
 
@@ -195,10 +191,12 @@ span{
   left: 0;
   right: 0;
   border-radius: 5px;
+ 
 }
 
 .title {
   color: #FFF;
+
 }
 
 .start {
